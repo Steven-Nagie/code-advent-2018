@@ -1,0 +1,23 @@
+{
+  "name": "advent",
+  "version": "1.0.0",
+  "description": "adventofcode.com",
+  "main": "1-1.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --require babel-polyfill",
+    "build": "babel --presets es2015 -d lib/ src"
+  },
+  "author": "Steven Nagie",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0"
+  }
+}
